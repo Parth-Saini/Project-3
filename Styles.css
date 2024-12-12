@@ -1,34 +1,166 @@
+*{
+    text-decoration: none
+}
+
 body{
     padding: 0;
     margin: 0;
     max-width: 100%;
-    font-family: sans-serif;
+    font-family:  sans-serif;
+    text-decoration: none;
 }
 
 li{
     list-style: none;
     display: inline;
-    margin-top: 100px;
-    margin-left: 80px;
-    text-align: center;
+    margin-right: 26px;
+    padding-right: -20px;
+}
 
+li a{
+    color:black;
+    word-spacing: 1px;
+    font-weight: 10px;
+}
+
+li a:hover{
+    background: none;
+    color: #01aeb7;
+    transition: .7s;
 }
 
 .headerDiv{
     position: relative;
-    background-color: #a6e5ea;
+    justify-content: space-between;
+    background-color: #a5e5e9;
 }
 
 .headerImage{
     width: 100%;
-    opacity: .5;
+    opacity: .3;
+}
+
+.logo{
+    float: left;
+    margin-left: 8%;
 }
 
 .navbar{
     position: absolute;
     display: flex;
-    color: black;
-    margin-left: 120px;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
 }
 
-.headPara{}
+.headPara{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-size: 22px;
+    /* font-weight: 1px; */
+    word-spacing: 2px;
+}
+
+.headPara .heading{
+    font-size: 75px;
+    color: #01aeb7;
+    line-height: 6rem;
+}
+
+.headPara .para{
+    font-size: 15px;
+    word-spacing: 8px;
+}
+
+.btn1{
+    background-color: #01aeb7;
+    color: white;
+    font-size: 13px;
+    width: 160px;
+    border-radius: 1.5rem;
+    border: none;
+    padding: 1rem;
+}
+
+.btn1:hover{
+    background: white;
+    color: #01aeb7;
+    transition: .5s;
+}
+
+.expertiseDiv{
+    position: relative;
+    background-color: #f6f9f9;
+    height: 790px;
+    width: 100%;
+    margin-top: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expertiseText{
+    position: absolute;
+    font-size: 27px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.expertisePara{
+    position: absolute;
+    font-size: 43px;
+    color: white;
+    margin-top: -490px;
+    margin-left: 80px;
+    
+}
+
+.line1{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 30px;
+}
+
+.ExpertiseSubPara{
+    color:white;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 80px;
+}
+
+.yogastyles1{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.yogastyles2{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.yogastyles3{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.yogastyles4{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.yogastyles5{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.yogastyles6{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
