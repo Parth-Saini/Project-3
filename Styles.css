@@ -15,18 +15,20 @@ li{
     display: inline;
     margin-right: 26px;
     padding-right: -20px;
+    cursor: pointer !important;
 }
 
 li a{
     color:black;
     word-spacing: 1px;
     font-weight: 10px;
+    cursor: pointer !important;
+    /* z-index: 10; */
 }
 
-li a:hover{
-    background: none;
-    color: #01aeb7;
-    transition: .7s;
+.underline li{
+    color: #01aeb7 !important;
+    transition: 0.7s !important;
 }
 
 .headerDiv{
@@ -43,6 +45,7 @@ li a:hover{
 .logo{
     float: left;
     margin-left: 8%;
+    cursor: pointer !important;
 }
 
 .navbar{
@@ -90,7 +93,7 @@ li a:hover{
 }
 
 .expertiseDiv{
-    position: relative;
+    /* position: relative; */
     background-color: #f6f9f9;
     height: 790px;
     width: 100%;
@@ -124,43 +127,162 @@ li a:hover{
 
 .ExpertiseSubPara{
     color:white;
-    position: absolute;
+    /* position: absolute; */
     margin-top: -340px;
     margin-left: 80px;
 }
 
+h2{
+    font-size: 21px;
+    font-weight: light;
+    text-align: center;
+}
+
+.yogaDiv1{
+    width: 100%;
+    display: flex;
+    margin-top: 170px;
+    margin-right: 100px;
+}
+
+.yogaDiv2{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.yogaPara{
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.yogaImg{
+    width: 25%;
+}
+
 .yogastyles1{
     height: 200px;
-    width: 400px;
+    width: 180px;
+    margin-right: 50px;
     text-align: center;
 }
 
 .yogastyles2{
     height: 200px;
-    width: 400px;
+    width: 180px;
+    margin-right: 50px;
     text-align: center;
 }
 
 .yogastyles3{
     height: 200px;
-    width: 400px;
+    width: 180px;
     text-align: center;
 }
 
 .yogastyles4{
     height: 200px;
-    width: 400px;
+    width: 180px;
+    margin-right: 50px;
     text-align: center;
 }
 
 .yogastyles5{
     height: 200px;
-    width: 400px;
+    width: 180px;
+    margin-right: 50px;
     text-align: center;
 }
 
 .yogastyles6{
     height: 200px;
-    width: 400px;
+    width: 180px;
     text-align: center;
+}
+
+.award{
+    background-image: url(Images/bg-graphic-free-img-1.jpg);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 170px;
+}
+
+.awardPara{
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+.awardLogo{
+    width: 11%;
+    margin-right: 3%;
+    margin-left: 4%;
+    opacity: .5;
+}
+
+.classesDiv{
+    float: right;
+    background-color: #f6f9f9;
+    height: 785px;
+    width: 100%;
+    margin-top: 180px;
+}
+
+.classImg{
+    float: right;
+}
+
+/* .classText{
+    float: right;
+    position: relative;
+} */
+
+table{
+    position: relative;
+    margin-bottom: -500px;
+}
+
+table,th,td{
+    padding-left: 50px;
+}
+
+th{
+    font-size: 26px;
+    background: none;
+}
+
+th,td{
+    border: 0px;
+    font-weight: lighter;
+    /* text-align: center; */
+    line-height: 30px;
+}
+
+.time{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.tableBtn{
+    background-color: #01aeb7;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.tableBtn:hover{
+    background-color: white;
+    color: #01aeb7;
+    transition: .5s;
 }
