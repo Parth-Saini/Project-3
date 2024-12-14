@@ -1,7 +1,3 @@
-*{
-    text-decoration: none
-}
-
 body{
     padding: 0;
     margin: 0;
@@ -20,10 +16,11 @@ li{
 
 li a{
     color:black;
+    text-decoration: none;
     word-spacing: 1px;
     font-weight: 10px;
     cursor: pointer !important;
-    /* z-index: 10; */
+    z-index: 10;
 }
 
 .underline li{
@@ -54,6 +51,21 @@ li a{
     align-items: center;
     justify-content: space-between;
     width: 98%;
+    z-index: 10;
+}
+
+.navbar li a{
+    color:black;
+    word-spacing: 1px;
+    font-weight: 10px;
+    cursor: pointer !important;
+    text-decoration: none;
+    /* z-index: 10; */
+}
+
+.navbar li a:hover{
+    color: #01aeb7;
+    transition: .5s;
 }
 
 .headPara{
@@ -122,7 +134,7 @@ li a{
 .line1{
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-underline-offset: 30px;
+    text-underline-offset: 20px;
 }
 
 .ExpertiseSubPara{
@@ -223,9 +235,10 @@ h2{
 }
 
 .classesDiv{
+    position: relative;
     float: right;
     background-color: #f6f9f9;
-    height: 785px;
+    height: 700px;
     width: 100%;
     margin-top: 180px;
 }
@@ -234,18 +247,152 @@ h2{
     float: right;
 }
 
-/* .classText{
-    float: right;
-    position: relative;
-} */
+.classText{
+    position: absolute;
+    margin: 320px 0 0 1172px;
+    color: white;
+    font-size: 31px;
+}
 
-table{
+.classPara{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 1040px;
+    font-size: 43px;
+    color: white;
+}
+
+.classSubPara{
+    font-size: 16px;
+    padding-top: 30px;
+    margin-right: 50px;
+}
+
+.tableDiv1{
+    position: absolute;
+    display: flex;
+    margin-top: 300px;
+    padding-left: 185px;
+}
+.div1{
+    font-size: 27px;
+    margin-right: 50px;
+}
+
+.div2{
+}
+
+.div3{
+    font-size: 27px;
+    margin-left: 50px;
+}
+
+.tableDiv2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 360px;
+    padding-left: 130px
+}
+
+.timeDiv1{
+    /* text-align: center; */
+    background-color: #ffffff;
+    /* border: 2px solid; */
+    font-size: 20px;
+    height: 120px;
+    width: 133px;
+    margin-left: 50px;
+    padding-top: 40px;
+    /* padding-left: 20px; */
+}
+
+.time{
+    padding-left: 20px;
+}
+
+.time1{
+    padding-left: 20px;
+}
+
+.timeLine{
+    border: 1px solid #80d6db;
+    margin-top: 50px;
+}
+
+.tableDiv3{
+    position: absolute;
+    display: inline-block;
+    margin-top: 360px;
+    padding-left: 310px
+}
+
+.yogaName1{
+    background-color: #ffffff;
+    /* border: 2px solid; */
+    text-align: center;
+    font-size: 25px;
+    height: 140px;
+    width: 181px;
+    padding-top: 20px;
+}
+
+.yogaNamePara{
+    background-color: #ffffff;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.yogaLine{
+    border: 1px solid #80d6db;
+    margin-top: 26px;
+}
+
+.tableDiv4{
+    position: absolute;
+    display: inline-block;
+    margin-top: 360px;
+    padding-left: 490px;
+}
+
+.btnDiv1{
+    background-color: #ffffff;
+    /* border: 2px solid rosybrown; */
+    font-size: 22px;
+    height: 135px;
+    /* margin-left: 50px; */
+    padding-top: 25px;
+}
+
+.tableBtn{
+    background-color: #01aeb7;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 17px;
+    padding: 11px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.btnLine{
+    border: 1px solid #80d6db;
+    margin-top: 21px;
+}
+
+.tableBtn:hover{
+    background-color: white;
+    color: #01aeb7;
+    transition: .5s;
+}
+
+/* table{
     position: relative;
     margin-bottom: -500px;
 }
 
 table,th,td{
-    padding-left: 50px;
+    padding-left: 10px;
 }
 
 th{
@@ -256,7 +403,7 @@ th{
 th,td{
     border: 0px;
     font-weight: lighter;
-    /* text-align: center; */
+    text-align: center;
     line-height: 30px;
 }
 
@@ -285,4 +432,4 @@ h4{
     background-color: white;
     color: #01aeb7;
     transition: .5s;
-}
+} */
