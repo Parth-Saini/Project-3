@@ -465,12 +465,14 @@ h4{
 
 .reviewImg{
     position: relative;
-    margin-top: 200px;
 }
 
 .reviewDiv{
     position: relative;
-    /* border: 2px solid; */
+    margin-top: 300px;
+    height: 990px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .reviewBackground{
@@ -478,89 +480,48 @@ h4{
     opacity: .3;
     float: right;
     width: 40%;
-    padding-left: 660px;
-    padding-top: 400px;
+    /* padding-top: 50px; */
+    padding-left: 100px;
+}
+
+.clientDiv{
+    margin-right: 100px;
+    height: 800px;
 }
 
 h5{
-    float: right;
-    margin-top: -370px;
-    padding-right: 400px;
     font-size: 40px;
+    color: #3a3a3a;
 }
 
-.reviewDiv1{
-    position: absolute;
-    float: right;
-    width: 100%;
+.client1_2{
     display: flex;
-    margin-top: -300px;
-    padding-left: 600px;
+    justify-content: space-between;
 }
 
-.reviewDiv2{
-    position: absolute;
-    width: 100%;
-    float: right;
+.client3_4{
     display: flex;
-    margin-top: 100px;
-    padding-left: 600px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.clientProfile3{
+    /* width: 350px; */
+}
+
+.reviewer{
+    display: flex;
 }
 
 .reviewPara{
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 15px;
+    color: #3a3a3a;
     line-height: 25px;
 }
 
-.review1{
-    height: 200px;
-    width: 200px;
-    margin-right: 150px;
-    text-align: left;
-}
-
-.review2{
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    text-align: left;
-}
-
-.review3{
-    height: 200px;
-    width: 200px;
-    margin-right: 150px;
-    text-align: left;
-}
-
-.review4{
-    height: 200px;
-    width: 200px;
-    margin-right: 50px;
-    text-align: left;
-}
-.reviewer{
-    margin-top: 30px;
-}
-.reviewer-details{
-    display: inline-block;
-    margin-top: -80px;
-}
-
 .clientImg{
-    width: 30%;
-    display: inline;
-}
-
-.clientName1{
-    margin-top: -100px;
-}
-
-.clientName{
-    /* margin: 0px; */
-    float: right;
-    /* padding-left: 65px; */
+    width: 19%;
 }
 
 .checked{
@@ -570,8 +531,9 @@ h5{
 .footerDiv{
     position: relative;
     background-color: #f6f9f9;
-    margin-top: 550px;
-    height: 700px;
+    margin-top: -210px;
+    height: 770px;
+    width: 100%;
 }
 
 .footerImg{
@@ -581,11 +543,9 @@ h5{
 
 h6{
     position: absolute;
-    /* font-size: 35px; */
-    padding-left: 500px;
+    padding-left: 550px;
     text-align: center;
     margin-top: 270px;
-    margin-left: 50px;
     font-size: 40px;
     font-weight: bold;
     color: white;
@@ -609,7 +569,7 @@ h6{
 
 .FLogo1{
     width: 4%;
-    /* margin-right: 10px;; */
+    margin-right: 10px;;
 }
 
 .FLogo2{
@@ -636,8 +596,10 @@ h6{
 
 .copyrightPara1{
     padding-left: 50px;
+    color: #3a3a3a;
 }
 
 .copyrightPara2{
     padding-right: 50px;
+    color: #3a3a3a;
 }
