@@ -254,7 +254,7 @@ h2 {
 }
 
 .classImg {
-    /* position: absolute; */
+  /* position: absolute; */
   /* float: right; */
 }
 
@@ -281,10 +281,10 @@ h2 {
   margin-right: 50px;
 }
 
-.clsDetails{
-    position:absolute;
-    margin-top: 50px;
-    margin-left: 150px;
+.clsDetails {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 150px;
 }
 
 .tableDiv1 {
@@ -312,7 +312,7 @@ h2 {
 }
 
 .tableDiv2 {
-    margin-top: 30px;
+  margin-top: 30px;
   display: flex;
   height: 130px;
   font-weight: bold;
@@ -339,7 +339,7 @@ h2 {
 } */
 
 .tableDiv3 {
-  display:flex;
+  display: flex;
   /* text-align: center; */
   height: 130px;
   font-weight: bold;
@@ -364,7 +364,7 @@ h2 {
 } */
 
 .tableDiv4 {
-  display:flex;
+  display: flex;
   height: 130px;
   padding-left: 2px;
   font-weight: bold;
@@ -372,13 +372,13 @@ h2 {
   border-bottom: 2px solid #80d6db;
 }
 
-.slowYoga{
-    font-size: 25px;
-    width: 140px;
-    padding-left: 20px;
-    font-weight: bold;
-    color: #3a3a3a;
-    background-color: #ffffff;
+.slowYoga {
+  font-size: 25px;
+  width: 140px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: #3a3a3a;
+  background-color: #ffffff;
 }
 
 .btnDiv1 {
@@ -709,122 +709,6 @@ h6 {
 }
 
 @media screen and (max-width: 1240px) {
-  .tableDiv1 {
-    position: absolute;
-    display: flex;
-    margin-top: 300px;
-    padding-left: 115px;
-  }
-  .div1 {
-    font-size: 27px;
-    font-weight: bold;
-    color: #3a3a3a;
-    margin-right: 20px;
-  }
-
-  .div2 {
-    /* margin-left: 15px; */
-  }
-
-  .div3 {
-    font-size: 27px;
-    font-weight: bold;
-    /* margin-left: 40px; */
-    color: #3a3a3a;
-  }
-
-  .tableDiv2 {
-    position: absolute;
-    display: inline-block;
-    margin-top: 360px;
-    /* padding-left: 130px */
-  }
-
-  .timeDiv1 {
-    /* text-align: center; */
-    background-color: #ffffff;
-    /* border: 2px solid; */
-    font-size: 20px;
-    height: 120px;
-    width: 133px;
-    margin-left: 1px;
-    padding-top: 40px;
-    /* padding-left: 20px; */
-  }
-
-  .time {
-    padding-left: 20px;
-  }
-
-  .time1 {
-    padding-left: 20px;
-  }
-
-  .timeLine {
-    border: 1px solid #80d6db;
-    margin-top: 48px;
-  }
-
-  .tableDiv3 {
-    position: absolute;
-    display: inline-block;
-    margin-top: 360px;
-    padding-left: 250px;
-  }
-
-  .yogaName1 {
-    background-color: #ffffff;
-    /* border: 2px solid; */
-    text-align: center;
-    font-size: 25px;
-    height: 140px;
-    width: 181px;
-    padding-top: 20px;
-  }
-
-  .yogaNamePara {
-    background-color: #ffffff;
-    font-size: 15px;
-    line-height: 23px;
-  }
-
-  .yogaLine {
-    border: 1px solid #80d6db;
-    margin-top: 26px;
-  }
-  .tableDiv4 {
-    position: absolute;
-    display: inline-block;
-    margin-top: 360px;
-    padding-left: 420px;
-  }
-
-  .btnDiv1 {
-    background-color: #ffffff;
-    /* border: 2px solid rosybrown; */
-    font-size: 22px;
-    height: 135px;
-    /* margin-left: 50px; */
-    padding-top: 25px;
-  }
-
-  .tableBtn {
-    background-color: #01aeb7;
-    font-size: 15px;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    margin: 17px;
-    padding: 11px;
-    width: 150px;
-    cursor: pointer;
-  }
-
-  .btnLine {
-    border: 1px solid #80d6db;
-    margin-top: 23px;
-  }
-
   .pvtClassImg {
     /* position: absolute; */
     opacity: 0.5;
@@ -874,6 +758,25 @@ h6 {
     padding: 11px;
     width: 150px;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .classesDiv {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    background-color: #f6f9f9;
+    height: 800px;
+    width: 100%;
+    margin-top: 180px;
+  }
+
+  .clsDetails {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
   }
 }
 
@@ -931,122 +834,6 @@ h6 {
     font-size: 16px;
     padding-top: 30px;
     margin-right: 50px;
-  }
-
-  .tableDiv1 {
-    position: absolute;
-    display: flex;
-    margin-top: 300px;
-    padding-left: 30px;
-  }
-  .div1 {
-    font-size: 27px;
-    font-weight: bold;
-    color: #3a3a3a;
-    margin-right: 20px;
-  }
-
-  .div2 {
-    /* margin-left: 15px; */
-  }
-
-  .div3 {
-    font-size: 27px;
-    font-weight: bold;
-    /* margin-left: 40px; */
-    color: #3a3a3a;
-  }
-
-  .tableDiv2 {
-    position: absolute;
-    display: inline-block;
-    margin-top: 360px;
-    /* padding-left: 130px */
-  }
-
-  .timeDiv1 {
-    /* text-align: center; */
-    background-color: #ffffff;
-    /* border: 2px solid; */
-    font-size: 20px;
-    height: 120px;
-    width: 133px;
-    margin-left: -100px;
-    padding-top: 40px;
-    /* padding-left: 20px; */
-  }
-
-  .time {
-    padding-left: 20px;
-  }
-
-  .time1 {
-    padding-left: 20px;
-  }
-
-  .timeLine {
-    border: 1px solid #80d6db;
-    margin-top: 48px;
-  }
-
-  .tableDiv3 {
-    position: absolute;
-    display: inline-block;
-    margin-top: 360px;
-    padding-left: 150px;
-  }
-
-  .yogaName1 {
-    background-color: #ffffff;
-    /* border: 2px solid; */
-    text-align: center;
-    font-size: 25px;
-    height: 140px;
-    width: 181px;
-    padding-top: 20px;
-  }
-
-  .yogaNamePara {
-    background-color: #ffffff;
-    font-size: 15px;
-    line-height: 23px;
-  }
-
-  .yogaLine {
-    border: 1px solid #80d6db;
-    margin-top: 26px;
-  }
-  .tableDiv4 {
-    position: absolute;
-    display: inline-block;
-    margin-top: 360px;
-    padding-left: 330px;
-  }
-
-  .btnDiv1 {
-    background-color: #ffffff;
-    /* border: 2px solid rosybrown; */
-    font-size: 22px;
-    height: 135px;
-    /* margin-left: 50px; */
-    padding-top: 25px;
-  }
-
-  .tableBtn {
-    background-color: #01aeb7;
-    font-size: 15px;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    margin: 17px;
-    padding: 11px;
-    width: 150px;
-    cursor: pointer;
-  }
-
-  .btnLine {
-    border: 1px solid #80d6db;
-    margin-top: 23px;
   }
 
   .pvtClassImg {
@@ -1156,26 +943,52 @@ h6 {
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .classesDiv {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    background-color: #f6f9f9;
+    height: 1200px;
+    width: 100%;
+    margin-top: 180px;
+    /* margin-left: 100px; */
+  }
+
+  .classImg {
+    /* position: absolute; */
+    float: right;
+    /* width: 10%; */
+  }
+
+  .clsDetails {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 1037px) {
   .expertiseDiv {
     margin-top: 100px;
     display: block;
-    height: 1100px;
+    height: 1300px;
   }
 
   .yogaDiv1 {
     /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
-    margin-top: 270px;
-    padding-inline: 150px;
+    margin-top: 290px;
+    /* padding-inline: 150px; */
   }
 
   .yogaDiv2 {
     /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
-    padding-inline: 150px;
+    /* padding-inline: 150px; */
   }
 
   .yogaImg {
@@ -1185,7 +998,7 @@ h6 {
   .yogastyles1 {
     height: 200px;
     width: 180px;
-    /* margin-right: 120px; */
+    margin-left: 180px;
     text-align: center;
   }
 
@@ -1206,7 +1019,7 @@ h6 {
   .yogastyles4 {
     height: 200px;
     width: 180px;
-    /* margin-right: 120px; */
+    margin-left: 180px;
     text-align: center;
   }
 
@@ -1222,8 +1035,236 @@ h6 {
     padding-left: 50px;
     text-align: center;
   }
+  .classText {
+    position: absolute;
+    margin-left:  830px;
+    color: white;
+    font-size: 31px;
+    font-weight: bold;
+  }
+  
+  .classPara {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 700px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .classSubPara {
+    font-size: 16px;
+    padding-top: 30px;
+    margin-right: 50px;
+  }
   .classesDiv {
     display: block;
     float: right;
   }
+
+  .clsDetails {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 75px;
+  }
+
+  .tableDiv1 {
+    width: 800px;
+  }
+
+  .div1 {
+    margin-left: 70px;
+    width: 200px;
+  }
+
+  .div2 {
+    width: 170px;
+  }
+
+  .toggler {
+    margin-left: 50px;
+  }
+
+  .div3 {
+    width: 190px;
+  }
+
+  .tableDiv2 {
+    width: 800px;
+  }
+
+  .timeDiv1 {
+    padding-top: 50px;
+    width: 200px;
+  }
+
+  .yogaName1 {
+    padding-top: 20px;
+    width: 320px;
+  }
+
+  .tableDiv3 {
+    width: 800px;
+  }
+
+  .tableDiv4 {
+    width: 800px;
+  }
+
+  .slowYoga {
+    font-size: 25px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 105px;
+    font-weight: bold;
+    color: #3a3a3a;
+    background-color: #ffffff;
+  }
+
+  .btnDiv1 {
+    width: 270px;
+    padding-left: 50px;
+  }
+
+  .pvtClassImg {
+    /* position: absolute; */
+    opacity: 0.5;
+    margin-left: 270px;
+    width: 35%;
+    margin-top: 130px;
+  }
+
+  .contactMeBtn {
+    background-color: #01aeb7;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 370px;
+    padding: 11px;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  .reviewDiv {
+    position: relative;
+    margin-top: 300px;
+    /* height: 1390px; */
+    display: inline;
+  }
+
+  .reviewBackground {
+    position: absolute;
+    opacity: 0.3;
+    /* float: right; */
+    width: 40%;
+    margin-top: 50px;
+    padding-left: 120px;
+  }
+  
+  .clientDiv {
+    margin-left: 100px;
+    margin-right: 150px;
+    height: 800px;
+  }
+  
+  h5 {
+    margin-top: 400px;
+    font-size: 40px;
+    color: #3a3a3a;
+  }
+  
+  .client1_2 {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 300px; */
+  }
+  
+  .client3_4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .clientProfile3 {
+    /* width: 350px; */
+  }
+
+  .clientImg{
+    width: 20%;
+  }
+  
+  .reviewer {
+    display: flex;
+  }
+  
+  .reviewPara {
+    font-weight: bold;
+    font-size: 15px;
+    color: #3a3a3a;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 940px){
+  .headPara {
+    position: absolute;
+    top: 32%;
+    left: 8%;
+    font-size: 1rem;
+    font-weight: 700px;
+    /* font-weight: 1px; */
+    word-spacing: 2px;
+  }
+
+  .headPara .heading {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: #01aeb7;
+    line-height: 3.4rem;
+  }
+
+  .headPara .para {
+    font-size: 15px;
+    word-spacing: 3px;
+  }
+  .classText {
+    margin-left:  730px;
+    color: white;
+    font-size: 31px;
+    font-weight: bold;
+  }
+  
+  .classPara {
+    margin-top: 350px;
+    margin-left: 600px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .pvtClassImg {
+    /* position: absolute; */
+    opacity: 0.5;
+    margin-left: 290px;
+    width: 35%;
+  }
+  
+  .pvtClassPara {
+    text-align: center;
+    margin-top: -370px;
+    color: #3a3a3a;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    text-align: center;
+    font-size: 40px;
+    color: #3a3a3a;
+    margin-top: -1px;
+    /* margin-left: 530px; */
+  }
+
 }
