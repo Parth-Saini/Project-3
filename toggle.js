@@ -10,15 +10,15 @@ toggleCheckbox.addEventListener('change', () => {
 
   if (toggleCheckbox.checked) {
 
-    contentOne.style.display = 'none';
-
-    contentTwo.style.display = 'block';
-
-  } else {
-
     contentOne.style.display = 'block';
 
     contentTwo.style.display = 'none';
+
+  } else {
+
+    contentOne.style.display = 'none';
+
+    contentTwo.style.display = 'block';
 
   }
 
